@@ -1,7 +1,7 @@
 class App {
     runApplication() {
         console.log("Hello World!");
-        //code gaat hier onder!
+
         let canvas = document.getElementById("canvasId");
         let g = canvas.getContext("2d");
         g.beginPath()
